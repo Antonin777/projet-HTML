@@ -29,6 +29,9 @@ h1,h2,h3,p,ul{ /* contexte de balises ayant les mêmes props */
     --theme-header-h1-bg : rgba(0, 150, 136,1.0);
     --theme-btn-primary : #3498db;
     --theme-btn-secondary : #ccc;
+    --theme-btn-secondary : #ccc;
+    --theme-btn-default: #ccc;
+
 } 
 button{
     padding: 0;
@@ -50,6 +53,21 @@ a{
     padding: 1rem;
     background-color: var(--theme-btn-secondary);
     text-align: center;
+    margin-right: 7rem; 
+
+}
+
+.btn-primary{
+    background-color: var(--theme-btn-primary);
+    color: #fff;
+
+
+}
+.btn-secondary{
+    background-color: var(--theme-btn-secondary);
+    color: inherit;
+
+
 }
 
 header > h1{
